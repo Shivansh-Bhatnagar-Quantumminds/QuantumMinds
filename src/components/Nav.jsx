@@ -4,8 +4,8 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="backdrop-blur shadow-md py-4 px-8 flex justify-between items-center sticky top-0 z-50 bg-[#e9f7ac]">
-      <div className="text-2xl font-bold text-[#323d58]">Quantum Minds</div>
+    <nav className="backdrop-blur shadow-md py-4 px-8 flex justify-between items-center sticky top-0 z-50 bg-[#a7e41d]">
+      <div className="text-2xl font-bold text-[#2f3982]">Quantum Minds</div>
       {/* Hamburger Icon */}
       <button
         className="md:hidden flex flex-col justify-center items-center w-8 h-8"
@@ -17,7 +17,7 @@ export default function Nav() {
         <span className={`block h-1 w-6 bg-[#323d58] rounded transition-all duration-300 ${open ? '-rotate-45 -translate-y-2' : ''}`}></span>
       </button>
 
-      <ul className={`md:flex gap-4 font-medium text-[#323d58] transition-all duration-300
+      <ul className={`md:flex gap-4 font-medium text-[#2f3982] transition-all duration-300
         ${open ? 'absolute top-16 left-0 w-full bg-white/95 flex flex-col items-center py-6 shadow-lg' : 'hidden'}
         md:static md:w-auto md:bg-transparent md:shadow-none md:flex-row md:items-center
       `}
